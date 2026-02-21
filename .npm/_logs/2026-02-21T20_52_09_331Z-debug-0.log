@@ -1,0 +1,68 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@9.2.0
+2 info using node@v18.19.1
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/share/nodejs/npm/npmrc Completed in 3ms
+6 timing config:load:builtin Completed in 4ms
+7 timing config:load:cli Completed in 3ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 1ms
+10 timing config:load:file:/root/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 0ms
+12 timing config:load:file:/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:setEnvs Completed in 1ms
+15 timing config:load Completed in 12ms
+16 timing npm:load:configload Completed in 12ms
+17 timing npm:load:mkdirpcache Completed in 0ms
+18 timing npm:load:mkdirplogs Completed in 1ms
+19 verbose title npm install pnpm
+20 verbose argv "install" "--global" "pnpm"
+21 timing npm:load:setTitle Completed in 1ms
+22 timing config:load:flatten Completed in 3ms
+23 timing npm:load:display Completed in 4ms
+24 verbose logfile logs-max:10 dir:/build/nanokvm-pro/.npm/_logs/2026-02-21T20_52_09_331Z-
+25 verbose logfile /build/nanokvm-pro/.npm/_logs/2026-02-21T20_52_09_331Z-debug-0.log
+26 timing npm:load:logFile Completed in 9ms
+27 timing npm:load:timers Completed in 0ms
+28 timing npm:load:configScope Completed in 0ms
+29 timing npm:load Completed in 27ms
+30 timing config:load:flatten Completed in 0ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 7ms
+34 timing idealTree:userRequests Completed in 4ms
+35 silly idealTree buildDeps
+36 silly fetch manifest pnpm@*
+37 http fetch GET 200 https://registry.npmjs.org/pnpm 242ms (cache miss)
+38 silly placeDep ROOT pnpm@10.30.1 OK for:  want: *
+39 timing idealTree:#root Completed in 266ms
+40 timing idealTree:node_modules/pnpm Completed in 0ms
+41 timing idealTree:buildDeps Completed in 267ms
+42 timing idealTree:fixDepFlags Completed in 1ms
+43 timing idealTree Completed in 281ms
+44 timing reify:loadTrees Completed in 286ms
+45 timing reify:diffTrees Completed in 2ms
+46 silly reify moves {}
+47 timing reify:retireShallow Completed in 2ms
+48 timing reify:createSparse Completed in 4ms
+49 timing reify:loadBundles Completed in 0ms
+50 silly tarball no local data for pnpm@https://registry.npmjs.org/pnpm/-/pnpm-10.30.1.tgz. Extracting by manifest.
+51 http fetch GET 200 https://registry.npmjs.org/pnpm/-/pnpm-10.30.1.tgz 676ms (cache miss)
+52 timing reifyNode:node_modules/pnpm Completed in 685ms
+53 timing reify:unpack Completed in 685ms
+54 timing reify:unretire Completed in 1ms
+55 timing build:queue Completed in 1ms
+56 timing build:link:node_modules/pnpm Completed in 8ms
+57 timing build:link Completed in 8ms
+58 timing build:deps Completed in 9ms
+59 timing build Completed in 9ms
+60 timing reify:build Completed in 9ms
+61 timing reify:trash Completed in 0ms
+62 timing reify Completed in 995ms
+63 silly ADD node_modules/pnpm
+64 timing command:install Completed in 1003ms
+65 verbose exit 0
+66 timing npm Completed in 1042ms
+67 info ok
